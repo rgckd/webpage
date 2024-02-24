@@ -43,7 +43,7 @@
         });
 
         async function fetchGoogleSheetData() {
-    const googleSheetURL = 'https://docs.google.com/spreadsheets/d/1MQeFkGK1tctZmyK201eBS4OD2qOGJyOoHI4c_5mxkn8/edit#gid=0';
+    const googleSheetURL = 'https://docs.google.com/spreadsheets/d/1MQeFkGK1tctZmyK201eBS4OD2qOGJyOoHI4c_5mxkn8/edit?usp=sharing';
     
     try {
         const response = await fetch(googleSheetURL);
